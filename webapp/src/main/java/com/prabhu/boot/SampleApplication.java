@@ -11,7 +11,6 @@ import org.glassfish.jersey.server.validation.ValidationConfig;
 import org.glassfish.jersey.server.validation.internal.InjectingConstraintValidatorFactory;
 import org.hibernate.validator.internal.engine.DefaultParameterNameProvider;
 
-
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.container.ResourceContext;
 import javax.ws.rs.core.Context;
