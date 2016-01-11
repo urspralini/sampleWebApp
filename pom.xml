@@ -6,6 +6,7 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
+        <module>common-models</module>
         <module>engine</module>
         <module>webapp</module>
     </modules>
@@ -16,7 +17,7 @@
         <jackson-2-version>2.6.3</jackson-2-version>
         <spring.version>4.1.0.RELEASE</spring.version>
         <jersey.spring.version>2.12</jersey.spring.version>
-        <springdata.mongodb.version>1.7.2.RELEASE</springdata.mongodb.version>
+        <springdata.mongodb.version>1.8.2.RELEASE</springdata.mongodb.version>
     </properties>
     <dependencies>
         <dependency>
@@ -118,6 +119,13 @@
             <groupId>javax.validation</groupId>
             <artifactId>validation-api</artifactId>
             <version>1.1.0.Final</version>
+        </dependency>
+
+        <!-- spring data mongodb -->
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-mongodb</artifactId>
+            <version>${springdata.mongodb.version}</version>
         </dependency>
 
         <!-- unit testing -->

@@ -12,7 +12,11 @@
     <name>uber511-webapp</name>
     <url>http://maven.apache.org</url>
     <dependencies>
-
+        <dependency>
+            <groupId>org.prabhu</groupId>
+            <artifactId>common-models</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
     <build>
         <finalName>uber511-webapp</finalName>

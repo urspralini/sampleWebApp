@@ -4,14 +4,13 @@
         <artifactId>prabhu-apps</artifactId>
         <groupId>org.prabhu</groupId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>uber511-engine</artifactId>
+    <artifactId>common-models</artifactId>
     <packaging>jar</packaging>
 
-    <name>uber511-engine</name>
+    <name>common-models</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -19,10 +18,6 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>org.prabhu</groupId>
-            <artifactId>common-models</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
+
     </dependencies>
 </project>

@@ -1,4 +1,4 @@
-package org.prabhu;
+package com.prabhu;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
