@@ -7,18 +7,11 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>uber511-webapp</artifactId>
+    <artifactId>webapp</artifactId>
     <packaging>war</packaging>
-    <name>uber511-webapp</name>
+    <name>webapp</name>
     <url>http://maven.apache.org</url>
-    <dependencies>
-        <dependency>
-            <groupId>org.prabhu</groupId>
-            <artifactId>common-models</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-    </dependencies>
     <build>
-        <finalName>uber511-webapp</finalName>
+        <finalName>webapp</finalName>
     </build>
 </project>
